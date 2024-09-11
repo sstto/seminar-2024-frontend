@@ -1,16 +1,19 @@
 import './App.css';
 
-import profileImage from '/me.jpg'
+import profileImage from '/me.jpg';
 
 function App() {
-
   return (
     <>
       <div className="container">
         <div className="title">청강증</div>
         <div className="content">
           <div className="left">
-            <img src={profileImage} className="profile-image" alt="프로필 이미지" />
+            <img
+              src={profileImage}
+              className="profile-image"
+              alt="프로필 이미지"
+            />
           </div>
           <div className="right">
             <div className="name">심영인</div>
